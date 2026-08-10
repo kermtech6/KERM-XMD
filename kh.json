@@ -1,10 +1,11 @@
 {
     "bot-name": "KERM-XMD",
-    "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ Kɢ ᴛᴇᴄʜ",
+    "description": "Simple WhatsApp Bot🤖",
     "logo": "https://files.catbox.moe/gqcoxn.jpeg",
-    "keywords": ["KgTech","Kerm md v2","Xmd"],
-    "documentation-link": "https://kgtech-v2-session.onrender.com/",
-    "owner-verification":"bookmakerp@gmail.com",
+    "keywords": ["Kg Tech", "Kerm Md", "Kerm-Xmd"],
+    "documentation-link": "https://kerm-sessions-production.up.railway.app",
+    "success_url": "/",
+    "stack": "container",
   
     "env": {
       "OWNER_NAME": {
@@ -21,7 +22,7 @@
       "USER_IMAGES": {
         "description": "Menu Images",
         "value": "https://files.catbox.moe/gqcoxn.jpeg",
-        "required": true
+        "required": false
       },
   
       "GOODBYE": {
@@ -31,16 +32,24 @@
       },
       "MENU": {
         "description": "choose 1, 2, 3",
-        "required": true,
         "value": "1"
       },
+      "THUMB_IMAGE": {
+        "description": "Thumbnail",
+        "value": "https://files.catbox.moe/gqcoxn.jpeg"
+      },
       "BOT_NAME": {
-        "description": " Bot Name",
-        "required": true,
+        "description": " NAME FOR BOT",
+        "required": false,
         "value": "𝗞𝗘𝗥𝗠-𝗫𝗠𝗗"
       },
+      "TZ": {
+        "description": "Put TIME_ZONE according to your location",
+        "required": false,
+        "value": "Africa/Douala"
+      },
       "READ_COMMAND": {
-        "description": " Fill the value true if you want bot to read all commands.",
+        "description": " Read bot cmds",
         "required": false,
         "value": "false"
       },
@@ -67,7 +76,7 @@
       "MSGS_IN_LOG": {
         "description": "Fill the value -true- if you want to see Messages in logs.",
         "required": false,
-        "value": "true"
+        "value": "false"
       },
       "READ_MESSAGE": {
         "description": "Fill the value true if you want bot to read all messages.",
@@ -81,7 +90,6 @@
       },
       "PREFIX": {
         "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-        "required": true,
         "value": "."
       },
       "OWNER_NUMBER": {
@@ -90,26 +98,45 @@
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "required": true,
         "value": ""
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-        "required": true,
         "value": "public"
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
-        "value": "𝗞𝗘𝗥𝗠-𝗫𝗠𝗗",
+        "value": "*𝗞𝗘𝗥𝗠-𝗫𝗠𝗗",
         "required": false
       },
       "PACK_AUTHER": {
         "description": "Put Sticker Author_Name.",
         "value": "KgTech",
         "required": false
-    
-        
-      }
-    }
+      }  
+  },
   
-  }
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+  ]
+}
