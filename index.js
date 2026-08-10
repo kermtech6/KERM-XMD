@@ -181,7 +181,7 @@ function applyConfig(repoPath) {
 
 async function runBot(extractedPath) {
     try {
-        console.log("[🇦🇱] STARTING KERM-MD-V1");
+        console.log("[🇨🇲] STARTING KERM-XMD");
 
         process.chdir(extractedPath);
 
