@@ -1,4 +1,4 @@
-### 🔥❖ KERM XMD - WHATSAPP BOT ❖🔥  
+### 🔥❖ KERM XMD - WHATSAPP BOT NEW VERSION OF KERM MD V2 ❖🔥  
 **`THE BEST WHATSAPP BOT BY KGTECH 🇨🇲`**
 
 ---
@@ -16,11 +16,11 @@
 ---
 
 <p align="center">
-<a href="https://github.com/Kgtech-cmr/"><img title="Followers" src="https://img.shields.io/github/followers/Kgtech-cmr?color=blue&style=flat-square"></a>
-<a href="https://github.com/Kgtech-cmr/KERM-XMD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Kgtech-cmr/KERM-XMD?color=yellow&style=flat-square"></a>
-<a href="https://github.com/Kgtech-cmr/KERM-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kgtech-cmr/KERM-XMD?color=green&style=flat-square"></a>
-<a href="https://github.com/Kgtech-cmr/KERM-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/Kgtech-cmr/KERM-XMD?style=flat-square&color=red"></a>
-<a href="https://github.com/Kgtech-cmr/KERM-XMD/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintenance-YES-green.svg"></a>
+<a href="https://github.com/kermtech6/"><img title="Followers" src="https://img.shields.io/github/followers/kermtech6?color=blue&style=flat-square"></a>
+<a href="https://github.com/kermtech6/KERM-XMD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/kermtech6/KERM-XMD?color=yellow&style=flat-square"></a>
+<a href="https://github.com/kermtech6/KERM-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kermtech6/KERM-XMD?color=green&style=flat-square"></a>
+<a href="https://github.com/kermtech6/KERM-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/kermtech6/KERM-XMD?style=flat-square&color=red"></a>
+<a href="https://github.com/kermtech6/KERM-XMD/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintenance-YES-green.svg"></a>
 </p>
 
 ---
@@ -39,7 +39,7 @@
 
 ##  **FORK KERM-XMD**
 
-[![FORK KERM-XMD](https://img.shields.io/badge/FORK%20-KERM%20XMD%20-white)](https://github.com/Kgtech-cmr/KERM-XMD/fork)
+[![FORK KERM-XMD](https://img.shields.io/badge/FORK%20-KERM%20XMD%20-white)](https://github.com/kermtech6/KERM-XMD/fork)
 ---
 
 ## 🔧 **QUICK SETUP - SESSION_ID** 🔧  
@@ -66,12 +66,12 @@
 ## 📂 **EASY DEPLOYMENT**
 
 ### ➤ **Deploy on Heroku**  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/Kgtech-cmr/KERM-XMD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/kermtech6/KERM-XMD)
 
 ### ➤ **Deploy on Replit**  
-[![Deploy on Replit](https://img.shields.io/badge/DEPLOY%20ON%20REPLIT-orange?style=for-the-badge&logo=replit)](https://repl.it/github/Kgtech-cmr/KERM-XMD)
+[![Deploy on Replit](https://img.shields.io/badge/DEPLOY%20ON%20REPLIT-orange?style=for-the-badge&logo=replit)](https://repl.it/github/kermtech6/KERM-XMD)
 
-### ➤ **DEPLOY_TALKDROVE**
+### ➤ **DEPLOY ON KERM HOSTING**
 
 1. Create Account. 
 
@@ -98,7 +98,7 @@
 
 ## 📢 **STAY CONNECTED**
 Join our WhatsApp channel for updates:  
-[![WhatsApp Channel](https://img.shields.io/badge/WhatsApp%20Channel-red?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45)
+[![WhatsApp Channel](https://img.shields.io/badge/WhatsApp%20Channel-red?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VbCgEqc0bIdmRMLots12)
 
 Subscribe to our YouTube for tutorials:  
 [![YouTube](https://img.shields.io/badge/YouTube-KGTECH-blue?style=for-the-badge&logo=youtube)](https://youtube.com/@KermHackTools-s9s)
