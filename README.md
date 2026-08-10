@@ -75,11 +75,11 @@
 
 1. Create Account. 
 
-<a href='https://host.talkdrove.com/auth/signup?ref=8F67E98D' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CREATE-ACCOUNT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://kermhosting.site/register?ref=KERM-RAYAN' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CREATE-ACCOUNT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
   2. Deploy Now. 
 
-<a href='https://host.talkdrove.com/dashboard/select-bot/prepare-deployment?botId=4' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-NOW-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://kermhosting.site/bot?open=c53b02d4-31b0-4ca4-afa4-7488b12cdb19' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-NOW-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 ### ➤ **Other Deployment Methods**
