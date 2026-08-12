@@ -13,19 +13,19 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Douala";
-global.github = process.env.GITHUB || "https://github.com/Kgtech-cmr/KERM-XMD";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VbCgEqc0bIdmRMLots12";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VbCgEqc0bIdmRMLots12";
+global.github = process.env.GITHUB || "https://github.com/kermtech6/KERM-XMD";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/gqcoxn.jpeg";
-global.devs = "https://wa.me/237650564445 , https://wa.me/237659535227";
+global.devs = "https://wa.me/237650564445 , https://wa.me/237656520674";
 global.sudo = process.env.SUDO || "237659535227";
-global.owner = process.env.OWNER_NUMBER || "237659535227";
+global.owner = process.env.OWNER_NUMBER || "237656520674";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
-global.disablepm = process.env.DISABLE_PM || "false";
-global.disablegroup = process.env.DISABLE_GROUPS || "false",
+global.disablepm = String(process.env.DISABLE_PM || "false").toLowerCase();
+global.disablegroup = String(process.env.DISABLE_GROUPS || "false").toLowerCase();
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
 global.userImages = process.env.USER_IMAGES || "https://files.catbox.moe/gqcoxn.jpeg";
 global.waPresence = process.env.WAPRESENCE || "available";
@@ -38,11 +38,11 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://kgtech-v2-session.onrender.com";
+global.scan = "https://xmd-session-id-production.up.railway.app";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "PUT YOUR SESSION ID HERE"
+  "PUT YOUR SESSION HERE"
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || "null",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "...d336",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  WORKTYPE: (process.env.WORKTYPE || process.env.MODE || "public").toLowerCase(),
   LANG: (process.env.THEME || "KERM").toUpperCase(),
 };
 global.rank = "updated";
