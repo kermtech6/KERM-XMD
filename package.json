@@ -4,7 +4,7 @@
   "description": "A WhatsApp bot created using Node.js bro",
   "main": "index.js",
   "engines": {
-    "node": "20.x"
+    "node": "24.x"
   },
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name KERM-XMD",
@@ -37,7 +37,7 @@
     "@sl-code-lords/wabetainfo": "1.2.0",
     "@tobyg74/tiktok-api-dl": "1.0.13",
     "@vitalets/google-translate-api": "9.2.0",
-    "@whiskeysockets/baileys": "6.7.23",
+    "@whiskeysockets/baileys": "6.6.0",
     "api-dylux": "latest",
     "aptoide-scraper": "1.0.1",
     "awesome-phonenumber": "6.2.0",
