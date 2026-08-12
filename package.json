@@ -4,7 +4,7 @@
   "description": "A WhatsApp bot created using Node.js bro",
   "main": "index.js",
   "engines": {
-    "node": "24.x"
+    "node": "20.x"
   },
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name KERM-XMD",
