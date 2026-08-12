@@ -7,7 +7,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name KERM-KERM-XMD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name KERM-XMD",
     "stop": "pm2 stop KERM-XMD",
     "restart": "pm2 restart KERM-XMD"
   },
@@ -37,7 +37,7 @@
     "@sl-code-lords/wabetainfo": "1.2.0",
     "@tobyg74/tiktok-api-dl": "1.0.13",
     "@vitalets/google-translate-api": "9.2.0",
-    "@whiskeysockets/baileys": "github:Mayelprince/Prince-bailey",
+    "@whiskeysockets/baileys": "6.7.0",
     "api-dylux": "latest",
     "aptoide-scraper": "1.0.1",
     "awesome-phonenumber": "6.2.0",
