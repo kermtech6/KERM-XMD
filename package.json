@@ -7,6 +7,7 @@
     "node": "20.x"
   },
   "scripts": {
+    "postinstall": "node patch-baileys.js",
     "start": "pm2 start index.js --deep-monitoring --attach --name KERM-XMD",
     "stop": "pm2 stop KERM-XMD",
     "restart": "pm2 restart KERM-XMD"
