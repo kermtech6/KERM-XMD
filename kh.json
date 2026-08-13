@@ -44,6 +44,16 @@
         "required": false,
         "value": "true"
       },
+      "HEROKU_API_KEY": {
+        "description": "Put Your Heroku Api Key Here",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Put Your Heroku App Name Here",
+        "value": "",
+        "required": false
+      },
       "WARN_COUNT": {
         "description": " Warn count for users to kick/block when warn limit exceed!",
         "required": false,
