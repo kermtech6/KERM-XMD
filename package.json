@@ -76,7 +76,6 @@
     "imaginesdk": "latest",
     "imgur": "latest",
     "is-standard-emoji": "1.0.0",
-    "jimp": "0.16.1",
     "sharp": "^0.34.1",
     "jspdf": "^2.5.1",
     "lodash": "^4.17.21",
